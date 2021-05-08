@@ -1,0 +1,16 @@
+server:
+  port: {$PORT}
+
+spring:
+  application:
+    name: fbk-api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka
