@@ -7,3 +7,5 @@ eureka:
     # serviceUrl.defaultZone: https://fbk-service-discoverer.herokuapp.com/eureka/
     register-with-eureka: false
     fetch-registry: false
+
+spring.config.import: configserver
