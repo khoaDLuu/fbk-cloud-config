@@ -9,7 +9,6 @@ spring:
 
 eureka:
   client:
-    serviceUrl:
-      defaultZone: http://localhost:2222/eureka
+    # serviceUrl.defaultZone: http://localhost:2222/eureka
     region: default
     registryFetchIntervalSeconds: 60
