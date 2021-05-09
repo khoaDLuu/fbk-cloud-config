@@ -4,6 +4,6 @@ spring:
 
 eureka:
   client:
-    serviceUrl.defaultZone: https://fbk-service-discoverer.herokuapp.com
+    # serviceUrl.defaultZone: https://fbk-service-discoverer.herokuapp.com/eureka/
     register-with-eureka: false
     fetch-registry: false
