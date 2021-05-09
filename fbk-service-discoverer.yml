@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: fbk-service-discoverer
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
