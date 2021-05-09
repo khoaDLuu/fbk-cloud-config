@@ -1,6 +1,3 @@
-server:
-  port: {$PORT}
-
 spring:
   application:
     name: fbk-api-gateway
@@ -13,4 +10,6 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:1111/eureka
+      defaultZone: http://localhost:2222/eureka
+    region: default
+    registryFetchIntervalSeconds: 60
