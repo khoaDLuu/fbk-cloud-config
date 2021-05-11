@@ -3,7 +3,7 @@ spring.jpa:
     hibernate.ddl-auto: update
 
 spring:
-    application.name: booking_service
+    application.name: booking-service
     # config.import: optional:configserver:${CONFIG_SERVER_URL}
 
 eureka.client:
