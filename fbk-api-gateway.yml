@@ -6,6 +6,16 @@ spring:
       discovery:
         locator:
           enabled: true
+      globalcors:
+        corsConfigurations:
+          "[/**]":
+            allowedOrigins: "https://my-movie-booking.herokuapp.com"
+            allowedMethods:
+            - GET
+            - POST
+            - PUT
+            - DELETE
+            allowedHeaders: "*"
 
 eureka:
   client:
