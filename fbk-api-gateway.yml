@@ -9,12 +9,8 @@ spring:
       globalcors:
         corsConfigurations:
           "[/**]":
-            allowedOrigins: "https://my-movie-booking.herokuapp.com"
-            allowedMethods:
-            - GET
-            - POST
-            - PUT
-            - DELETE
+            allowedOrigins: "*"
+            allowedMethods: "*"
             allowedHeaders: "*"
 
 eureka:
