@@ -13,8 +13,10 @@ spring:
             allowedMethods: "*"
             allowedHeaders: "*"
 
+spring.config.import: optional:configserver:https://fbk-config-server.herokuapp.com
+
 eureka:
   client:
-    # serviceUrl.defaultZone: http://localhost:2222/eureka
+    serviceUrl.defaultZone: http://fbk-service-discoverer.herokuapp.com/eureka/
     region: default
     registryFetchIntervalSeconds: 60
