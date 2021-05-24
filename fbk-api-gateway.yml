@@ -19,4 +19,4 @@ eureka:
   client:
     serviceUrl.defaultZone: http://fbk-service-discoverer.herokuapp.com/eureka/
     region: default
-    registryFetchIntervalSeconds: 60
+    registryFetchIntervalSeconds: 40
